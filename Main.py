@@ -34,8 +34,8 @@ def move():
             os.rename(path + name, path_bad + name)
 
 
-path = r"/mnt/qnap/Filme/"
-path_bad = r"/mnt/qnap/Filme/Bad Quality/"
+path = r"/run/media/habanzu/DECKARDCAIN/Filme"
+path_bad = r"/run/media/habanzu/DECKARDCAIN/Filme/Bad Quality/"
 pattern = r"(?:([^-]+)-)+?([^-]+)"
 
 os.chdir(path)
