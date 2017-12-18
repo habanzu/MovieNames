@@ -34,7 +34,7 @@ def move():
             os.rename(path + name, path_bad + name)
 
 
-path = r"/run/media/habanzu/DECKARDCAIN/Filme"
+path = r"/run/media/habanzu/DECKARDCAIN/Filme/"
 path_bad = r"/run/media/habanzu/DECKARDCAIN/Filme/Bad Quality/"
 pattern = r"(?:([^-]+)-)+?([^-]+)"
 
